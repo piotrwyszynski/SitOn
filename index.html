@@ -7,6 +7,7 @@
 
     <title>Warsztat1</title>
     <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,700&amp;subset=latin-ext" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
     
@@ -49,6 +50,74 @@
             </nav>
         </div>
     </header>
+
+    <section class="main-banner">
+        <div class="container">
+               <div class="banner" id="banner">
+                    <button type="button" class="banner-prev">
+                            <i class="fas fa-angle-left"></i>
+
+                    </button>
+                    <button type="button" class="banner-next">
+                            <i class="fas fa-angle-right"></i>
+
+
+                    </button>
+                    <div class="banner-slides">
+                        <div class="banner-slide" "banner-slide-active">slide</div>
+                        <div class="banner-slide">slide1</div>
+                        <div class="banner-slide">slide2</div>
+                    </div>
+               </div> 
+
+        </div>
+
+    </section>
+
+    <section class="main-contact">
+        <div class="container">
+            <h2 class="section-title">
+                Kontakt
+            </h2>
+            <form class="form">
+                <div class="form-left">
+                    <div class="form-row">
+                        <label for="name" class="visuallyhidden">Imię</label>
+                        <input class="form-control" type="text" name="name" id="name" placeholder="Imię">
+                    </div>
+                    <div class="form-row">
+                            <label for="email" class="visuallyhidden">Email</label>
+                            <input class="form-control" type="email" name="emial" id="email" placeholder="Email">
+                    </div>
+                    <div class="form-row">
+                        <label for="massage" class="visuallyhidden">Wiadomość</label>
+                        <textarea class="form-control" type="massage" name="massage" id="massage" placeholder="Wiadomość"></textarea>
+                    </div>
+                </div>
+                <div class="form-right">
+                    <div class="form-addon"></div>
+                    <div class="form-row">
+                        <label class="form-checkbox">
+                            <input type="checkbox" class="form-checkbox-input">
+                            <span class="form-checkbox-mark"></span>
+                            <span class="form-checkbox-text">
+                                    Zgadzam sie na przetwarzanie danych osobowych
+                            </span>
+
+                        </label>
+
+                    </div>
+                    <div class="form-row">
+                        <button type="submit" class="btn form-submit-btn">
+                            Wyślij
+                        </button>
+                        
+                    </div>
+                </div>
+            </form>
+        </div>
+
+    </section>
     
 </body>
 </html>
