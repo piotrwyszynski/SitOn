@@ -179,6 +179,7 @@ body {
 .banner {
     height: 500px;
     display: flex;
+
 }
 
 .banner-prev,
@@ -188,6 +189,7 @@ body {
     border: 0;
     font-size: 70px;
     color: var(--color);
+    outline: none
 }
 
 .banner-next {
